@@ -1,0 +1,1 @@
+export { default } from "./ads-other-user-screen";
