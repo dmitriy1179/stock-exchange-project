@@ -189,7 +189,7 @@ const MyAdEditSreen = ({ dispatch, arrImages, status }) => {
                   arrImages.map((image, index) => (
                     image.url === null ? null :
                       <div key={index} className="mt-3 col-3 w-100 mx-auto px-3">
-                        <div className="w-100">
+                        <div className="w-100 h-75">
                           <img src={`http://marketplace.asmer.fs.a-level.com.ua/${image.url}`}
                             className="img-fluid rounded w-100 h-100"
                             alt="picture" 
